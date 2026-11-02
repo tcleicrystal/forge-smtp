@@ -1,0 +1,491 @@
+# Translation of Plugins - Easy WP SMTP by SendLayer &#8211; WordPress SMTP and Email Log Plugin - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Easy WP SMTP by SendLayer &#8211; WordPress SMTP and Email Log Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-11-06 06:49+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.7.3\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Easy WP SMTP by SendLayer &#8211; WordPress SMTP and Email Log Plugin - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:391
+msgid "debug log is reset when the plugin is activated, deactivated or updated."
+msgstr "插件激活、停用或更新时，调试日志会被重置。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:256
+msgid "Optional. This email address will be used in the 'BCC' field of the outgoing emails. Use this option carefully since all your outgoing emails from this site will add this address to the BCC field. You can also enter multiple email addresses (comma separated)."
+msgstr "可选。此电子邮件地址将用于外发电子邮件的“密件抄送”字段。您从此站点发出的所有电子邮件都会将此地址添加到密件抄送字段，请谨慎使用。您可以输入多个电子邮件地址(逗号分隔)。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:253
+#: src/Admin/ConnectionSettings.php:354
+msgid "BCC Email Address"
+msgstr "密送电子邮件地址"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:248
+msgid "When enabled, the plugin will substitute occurances of the above From Email with the Reply-To Email address. The Reply-To Email will still be used if no other Reply-To Email is present. This option can prevent conflicts with other plugins that specify reply-to email addresses but still replaces the From Email with the Reply-To Email."
+msgstr "启用此选项时，如果将被发送的邮件中没有设置「回复到」电子邮件地址，系统将使用此处设置的电子邮件作为「回复到」电子邮件地址。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:246
+#: src/Admin/ConnectionSettings.php:338
+msgid "Substitute Mode"
+msgstr "备用模式"
+
+#: inc/deprecated/class-easywpsmtp.php:391
+msgid "Can't clear log - file is not writeable."
+msgstr "无法清除日志-文件不可写。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:417
+msgid "Warning! This can't be undone."
+msgstr "警告！ 此操作无法撤销。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:416
+msgid "This will remove ALL your settings and deactivate the plugin. Useful when you're uninstalling the plugin and want to completely remove all crucial data stored in the database."
+msgstr "此操作将删除所有设置并停用插件。 在卸载插件并希望完全删除数据库中存储的所有关键数据时很有用。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:416
+msgid "Self-destruct"
+msgstr "自毁"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:414
+msgid "Delete Settings and Deactivate Plugin"
+msgstr "删除设置并禁用插件"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:407
+msgid "Actions in this section can (and some of them will) erase or mess up your settings. Use it with caution."
+msgstr "本部分中的操作（某些操作）可以会擦除或破坏您的设置，请谨慎使用。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:405
+msgid "Danger Zone"
+msgstr "危险操作"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:30
+msgid "All settings have been deleted and plugin is deactivated."
+msgstr "所以设置已删除，插件已停用。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:29
+msgid "Are you sure you want to delete ALL your settings and deactive plugin?"
+msgstr "确定要删除所有设置并停用插件吗？"
+
+#: inc/deprecated/class-easywpsmtp.php:543
+msgid "Please refresh the page and try again."
+msgstr "请刷新该页面并重试。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:527
+msgid "Documentation"
+msgstr "说明文档"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:28
+msgid "Sending..."
+msgstr "正在发送..."
+
+#: inc/deprecated/class-easywpsmtp-admin.php:27
+msgid "Error occurred:"
+msgstr "发生错误："
+
+#: inc/deprecated/class-easywpsmtp-admin.php:287
+msgid "STARTTLS"
+msgstr "STARTTLS"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:281
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:464
+msgid "Hide Debug Log"
+msgstr "隐藏调试日志"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:454
+#: inc/deprecated/class-easywpsmtp-admin.php:462
+msgid "Show Debug Log"
+msgstr "显示调试日志"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:443
+msgid "Test email was successfully sent. No errors occurred during the process."
+msgstr "测试电子邮件已成功发送。此过程中没有发生错误。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:440
+msgid "Following error occurred when attempting to send test email:"
+msgstr "尝试发送测试电子邮件时发生以下错误："
+
+#: inc/deprecated/class-easywpsmtp-admin.php:372
+msgid "When enabled, your SMTP password is stored in the database using AES-256 encryption."
+msgstr "启用后，您的 SMTP密码将使用AES-256加密存储在数据库中。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:368
+msgid "Encrypt Password"
+msgstr "加密密码"
+
+#. translators: %s is PHP version
+#: inc/deprecated/class-easywpsmtp-admin.php:66
+msgid "Your PHP version is %s, encryption function requires PHP version 5.3.0 or higher."
+msgstr "你的 PHP版本是%s，加密功能需要 PHP 5.3.0 或更高版本。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:58
+msgid "PHP OpenSSL extension is not installed on the server. It is required for encryption to work properly. Please contact your server administrator or hosting provider and ask them to install it."
+msgstr "服务器上未安装PHP OpenSSL扩展。加密需要此扩展才能正常工作。请联系您的服务器管理员或主机提供商进行安装。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:55
+msgid "PHP OpenSSL extension is not installed on the server. It's required by Easy WP SMTP plugin to operate properly. Please contact your server administrator or hosting provider and ask them to install it."
+msgstr "服务器上未安装PHP OpenSSL扩展。SMTP 插件需要此扩展才能正常运行。请联系您的服务器管理员或主机提供商进行安装。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:236
+msgid "If email's From Name is empty, the plugin will set the above value regardless."
+msgstr "如果邮件的发件人名称为空，该插件将设置上述值。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:234
+msgid "When enabled, the plugin will set the above From Name for each email. Disable it if you're using contact form plugins, it will prevent the plugin from replacing form submitter's name when contact email is sent."
+msgstr "启用后，插件将为每封邮件强制设置此处的 \"发件人名称\"，如果您使用联系表单插件，请禁用此选项，否则此插件将禁止其他插件在发送联系人邮件时替换表单提交者的姓名。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:232
+#: src/Admin/ConnectionSettings.php:275
+msgid "Force From Name Replacement"
+msgstr "强制替换发件人名称"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:568
+msgid "rating"
+msgstr "评价"
+
+#. translators: %s is replaced by rating link
+#: inc/deprecated/class-easywpsmtp-admin.php:564
+msgctxt "%s is replaced by \"rating\" link"
+msgid "Like the plugin? Please give us a %s"
+msgstr "喜欢此插件？请给我们一个 %s"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:558
+msgid "Rate Us"
+msgstr "给我们评价"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:551
+msgid "Support Forum"
+msgstr "支持论坛"
+
+#. translators: %s is replaced by support forum URL
+#: inc/deprecated/class-easywpsmtp-admin.php:547
+msgctxt "%s is replaced by \"Support Forum\" link"
+msgid "Having issues or difficulties? You can post your issue on the %s"
+msgstr "有问题或遇到困难？您可以在%s上发布问题，请求帮助。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:541
+msgid "Support"
+msgstr "支持"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:328
+msgid "when you click \"Save Changes\", your actual password is stored in the database and then used to send emails. This field is replaced with a gag (#easywpsmtpgagpass#). This is done to prevent someone with the access to Settings page from seeing your password (using password fields unmasking programs, for example)."
+msgstr "单击 \"保存更改\" 时, 您的实际密码将存储在数据库中，用于发送邮件。此字段被替换为一个字符串 (#easywpsmtpgagpass#)。这样做是为了防止有权访问 \"设置\" 页面的人看到您的密码(例如, 使用密码字段解除屏蔽程序)。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:382
+msgid "Allows insecure and self-signed SSL certificates on SMTP server. It's highly recommended to keep this option disabled."
+msgstr "允许在 SMTP 服务器上使用不安全的自签名 SSL 证书，强烈建议禁用此选项。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:379
+#: src/Admin/Pages/MiscTab.php:169
+msgid "Allow Insecure SSL Certificates"
+msgstr "允许不安全的 SSL 证书"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:486
+msgid "debug log for this test email will be automatically displayed right after you send it. Test email also ignores \"Enable Domain Check\" option."
+msgstr "测试邮件的调试日志将在您发送邮件后自动显示，测试邮件会忽略 \"启用域名检查\" 选项。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:328
+#: inc/deprecated/class-easywpsmtp-admin.php:391
+#: inc/deprecated/class-easywpsmtp-admin.php:434
+#: inc/deprecated/class-easywpsmtp-admin.php:486
+msgctxt "\"Note\" as in \"Note: keep this in mind\""
+msgid "Note:"
+msgstr "注意："
+
+#: inc/deprecated/class-easywpsmtp-admin.php:485
+msgid "You can use this section to send an email from your server using the above configured SMTP details to see if the email gets delivered."
+msgstr "您可以这里使用上面配置的 SMTP 信息从您的服务器发送邮件, 以查看邮件是否已发送。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:434
+msgid "You have unsaved settings. In order to send a test email, you need to go back to previous tab and click \"Save Changes\" button first."
+msgstr "您有未保存的设置。在发送测试电子邮件之前，您需要返回上一个选项卡, 然后单击 \"保存更改 \" 按钮。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:362
+#: src/Admin/Pages/MiscTab.php:126
+msgid "Block all emails"
+msgstr "阻止所有邮件"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:216
+msgid "You can request your hosting provider for the SMTP details of your site. Use the SMTP details provided by your hosting provider to configure the following settings."
+msgstr "您可以联系电子邮件服务提供商来了解 SMTP 信息。使用主机提供商提供的 SMTP 信息配置下列选项。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:198
+msgid "SMTP Settings"
+msgstr "SMTP 设置"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:91
+#: inc/deprecated/class-easywpsmtp.php:385
+msgid "Nonce check failed."
+msgstr "随机数检查失败。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:364
+msgid "When enabled, plugin attempts to block ALL emails from being sent out if domain mismatch."
+msgstr "启用此选项时, 如果域名不匹配，插件将阻止发送所有电子邮件。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:351
+msgid "This option is useful when you are using several email aliases on your SMTP server. If you don't want your aliases to be replaced by the address specified in \"From\" field, enter them in this field."
+msgstr "当您在 SMTP 服务器上使用多个邮箱地址别名时, 此选项很有用。如果您不希望将别名替换为 \"发件人\" 字段中指定的地址, 请在此字段中输入邮箱地址的别名。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:350
+msgid "Comma separated emails list. Example value: email1@domain.com, email2@domain.com"
+msgstr "逗号分隔的电子邮箱地址列表，如: email1@domain.com, email2@domain.com"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:347
+msgid "Don't Replace \"From\" Field"
+msgstr "不要替换 \"发件人\" 字段"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:343
+msgid "Additional Settings (Optional)"
+msgstr "其他设置 (可选)"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:200
+#: inc/deprecated/class-easywpsmtp-admin.php:432
+msgid "Test Email"
+msgstr "测试电子邮件"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:26 src/Admin/Area.php:424
+msgid "Log cleared."
+msgstr "日志已清除。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:25 src/Admin/Area.php:423
+msgid "Are you sure want to clear log?"
+msgstr "是否确实要清除日志？"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:393
+#: src/Admin/Pages/MiscTab.php:223
+msgid "Clear Log"
+msgstr "清除日志"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:393
+#: src/Admin/Pages/MiscTab.php:222
+msgid "View Log"
+msgstr "查看日志"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:389
+msgid "Check this box to enable mail debug log"
+msgstr "选中此项可启用邮件调试日志"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:386
+#: src/Admin/Pages/MiscTab.php:196
+msgid "Enable Debug Log"
+msgstr "启用调试日志"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:360
+msgid "Coma-separated domains list. Example: domain1.com, domain2.com"
+msgstr "用逗号分隔域列表。例如:domain1.com,domain2.com"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:358
+msgid "This option is usually used by developers only. SMTP settings will be used only if the site is running on following domain(s):"
+msgstr "此选项通常只供开发人员使用. 只当网站在以下域名中运行时才会使用 SMTP 设置:"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:355
+#: src/Admin/Pages/MiscTab.php:87
+msgid "Enable Domain Check"
+msgstr "启用域名检查"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:199
+msgid "Additional Settings"
+msgstr "其他设置"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:244
+msgid "Optional. This email address will be used in the 'Reply-To' field of the email. Leave it blank to use 'From' email as the reply-to value."
+msgstr "可选，此邮箱地址将用于邮件的「回复到」字段，留空以使用 \"发件人\" 邮箱地址。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:241
+#: src/Admin/ConnectionSettings.php:316
+msgid "Reply-To Email Address"
+msgstr "回复到电子邮箱地址"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:213
+msgid "SMTP Configuration Settings"
+msgstr "SMTP 设置"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:172
+msgid "Please enter a valid email address in the recipient email field."
+msgstr "请在收件人邮箱地址字段中输入有效的邮箱地址。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:494
+msgid "Enter the recipient's email address"
+msgstr "输入收件人邮箱地址"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:508
+msgid "Write your email message"
+msgstr "请撰写测试邮件内容"
+
+#. translators: %s URL to the plugin's settings page.
+#: inc/deprecated/class-easywpsmtp.php:365
+msgid "Please configure your SMTP credentials in the <a href=\"%s\">settings menu</a> in order to send email using Easy WP SMTP plugin."
+msgstr "若要通过邮箱接收询盘，请在“网站设置->SMTP配置”中配置发信邮箱。<a href=\"https://class.jingcheng.net.cn/website-management/\" target=\"_blank\">点这里查看视频课件</a>"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:333
+#: inc/deprecated/class-easywpsmtp-admin.php:398
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:491
+msgid "To"
+msgstr "收件人"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:498
+#: src/Admin/Pages/ExportTab.php:214 src/Admin/Pages/TestTab.php:217
+msgid "Subject"
+msgstr "主题"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:513
+#: src/Admin/Pages/TestTab.php:261
+msgid "Send Test Email"
+msgstr "发送测试邮件"
+
+#: inc/deprecated/class-easywpsmtp.php:440
+#: inc/deprecated/class-easywpsmtp.php:448 src/Admin/Area.php:263
+#: src/Admin/Area.php:264 src/Admin/Area.php:1063
+#: src/Admin/Pages/SettingsTab.php:48
+msgid "Settings"
+msgstr "设置"
+
+#: assets/languages/easy-wp-smtp-vue.php:411
+#: inc/deprecated/class-easywpsmtp-admin.php:275
+#: src/Providers/OptionsAbstract.php:320
+msgid "None"
+msgstr "无"
+
+#: assets/languages/easy-wp-smtp-vue.php:414
+#: src/Providers/OptionsAbstract.php:330
+msgid "SSL"
+msgstr "SSL"
+
+#: assets/languages/easy-wp-smtp-vue.php:417
+#: src/Providers/OptionsAbstract.php:340
+msgid "TLS"
+msgstr "TLS"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:220
+#: src/Admin/ConnectionSettings.php:208
+msgid "From Email Address"
+msgstr "发件人邮箱地址"
+
+#: assets/languages/easy-wp-smtp-vue.php:173
+#: inc/deprecated/class-easywpsmtp-admin.php:227
+#: src/Admin/ConnectionSettings.php:248 src/Admin/Pages/ExportTab.php:207
+msgid "From Name"
+msgstr "发件人名称"
+
+#: assets/languages/easy-wp-smtp-vue.php:378
+#: inc/deprecated/class-easywpsmtp-admin.php:261
+#: src/Providers/OptionsAbstract.php:292
+msgid "SMTP Host"
+msgstr "SMTP 主机"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:288
+msgid "For most servers SSL/TLS is the recommended option"
+msgstr "对大多数服务器而言SSL/TLS是推荐选项"
+
+#: assets/languages/easy-wp-smtp-vue.php:384
+#: inc/deprecated/class-easywpsmtp-admin.php:292
+#: src/Providers/OptionsAbstract.php:353
+msgid "SMTP Port"
+msgstr "SMTP 端口"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:299
+#: src/Providers/OptionsAbstract.php:392
+msgid "SMTP Authentication"
+msgstr "SMTP 认证"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:306
+msgid "No"
+msgstr "否"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:312 src/Admin/Area.php:418
+#: src/Admin/Pages/DebugEventsTab.php:150 src/Admin/UserFeedback.php:95
+msgid "Yes"
+msgstr "是"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:313
+msgid "This options should always be checked 'Yes'"
+msgstr "此选项应始终选择 \"是\""
+
+#: assets/languages/easy-wp-smtp-vue.php:405
+#: inc/deprecated/class-easywpsmtp-admin.php:324
+#: src/Providers/OptionsAbstract.php:431
+msgid "SMTP Password"
+msgstr "SMTP 密码"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:327
+msgid "The password to login to your mail server"
+msgstr "登录到您邮件服务器的密码"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:505
+#: src/Admin/Pages/TestTab.php:230
+msgid "Message"
+msgstr "邮件内容"
+
+#: assets/languages/easy-wp-smtp-vue.php:402
+#: inc/deprecated/class-easywpsmtp-admin.php:317
+#: src/Providers/OptionsAbstract.php:414
+msgid "SMTP Username"
+msgstr "SMTP 用户名"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:268
+#: src/Providers/OptionsAbstract.php:309
+msgid "Type of Encryption"
+msgstr "加密类型"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: inc/deprecated/class-easywpsmtp-admin.php:38 src/Admin/Area.php:244
+#: src/Admin/Area.php:245 src/Admin/Area.php:252 src/Admin/Area.php:253
+#: src/Admin/DashboardWidget.php:164 src/SiteHealth.php:43
+msgid "Easy WP SMTP"
+msgstr "SMTP 配置"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:501
+msgid "Enter a subject for your message"
+msgstr "输入测试邮件的主题"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:320
+msgid "The username to login to your mail server"
+msgstr "登录到您电子邮件服务器的用户名"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:295
+msgid "The port to your mail server"
+msgstr "您电子邮件服务器端口"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:264
+msgid "Your mail server"
+msgstr "您的电子邮件服务器"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:230
+msgid "This text will be used in the 'FROM' field"
+msgstr "此设置将在 \"发件人\" 字段中使用"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:223
+msgid "This email address will be used in the 'From' field."
+msgstr "此邮箱地址将在 \"发件人\" 字段中使用。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:158
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:160
+msgid "Settings are not saved."
+msgstr "设置尚未保存。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:102
+msgid "Please enter a valid email address in the 'FROM' field."
+msgstr "请在 '发件人' 字段中输入一个有效的邮箱地址。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:149
+msgid "Please enter a valid port in the 'SMTP Port' field."
+msgstr "请在「SMTP端口」字段中输入一个有效的端口。"
+
+#: inc/deprecated/class-easywpsmtp-admin.php:71
+msgid "Easy WP SMTP Settings"
+msgstr "SMTP 配置"
